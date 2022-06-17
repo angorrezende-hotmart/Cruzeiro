@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99898C33285D441F00BC601E /* CruzeiroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99898C32285D441F00BC601E /* CruzeiroApp.swift */; };
+		99898C35285D441F00BC601E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99898C34285D441F00BC601E /* ContentView.swift */; };
+		99898C37285D442000BC601E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99898C36285D442000BC601E /* Assets.xcassets */; };
+		99898C3A285D442000BC601E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99898C39285D442000BC601E /* Preview Assets.xcassets */; };
+		99898C44285D442000BC601E /* CruzeiroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99898C43285D442000BC601E /* CruzeiroTests.swift */; };
+		99898C4E285D442000BC601E /* CruzeiroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99898C4D285D442000BC601E /* CruzeiroUITests.swift */; };
+		99898C50285D442000BC601E /* CruzeiroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99898C4F285D442000BC601E /* CruzeiroUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99898C40285D442000BC601E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99898C27285D441F00BC601E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99898C2E285D441F00BC601E;
+			remoteInfo = Cruzeiro;
+		};
+		99898C4A285D442000BC601E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99898C27285D441F00BC601E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99898C2E285D441F00BC601E;
+			remoteInfo = Cruzeiro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99898C2F285D441F00BC601E /* Cruzeiro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cruzeiro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99898C32285D441F00BC601E /* CruzeiroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CruzeiroApp.swift; sourceTree = "<group>"; };
+		99898C34285D441F00BC601E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		99898C36285D442000BC601E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99898C39285D442000BC601E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		99898C3F285D442000BC601E /* CruzeiroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CruzeiroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99898C43285D442000BC601E /* CruzeiroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CruzeiroTests.swift; sourceTree = "<group>"; };
+		99898C49285D442000BC601E /* CruzeiroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CruzeiroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99898C4D285D442000BC601E /* CruzeiroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CruzeiroUITests.swift; sourceTree = "<group>"; };
+		99898C4F285D442000BC601E /* CruzeiroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CruzeiroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99898C2C285D441F00BC601E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99898C3C285D442000BC601E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99898C46285D442000BC601E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99898C26285D441F00BC601E = {
+			isa = PBXGroup;
+			children = (
+				99898C31285D441F00BC601E /* Cruzeiro */,
+				99898C42285D442000BC601E /* CruzeiroTests */,
+				99898C4C285D442000BC601E /* CruzeiroUITests */,
+				99898C30285D441F00BC601E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99898C30285D441F00BC601E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99898C2F285D441F00BC601E /* Cruzeiro.app */,
+				99898C3F285D442000BC601E /* CruzeiroTests.xctest */,
+				99898C49285D442000BC601E /* CruzeiroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99898C31285D441F00BC601E /* Cruzeiro */ = {
+			isa = PBXGroup;
+			children = (
+				99898C32285D441F00BC601E /* CruzeiroApp.swift */,
+				99898C34285D441F00BC601E /* ContentView.swift */,
+				99898C36285D442000BC601E /* Assets.xcassets */,
+				99898C38285D442000BC601E /* Preview Content */,
+			);
+			path = Cruzeiro;
+			sourceTree = "<group>";
+		};
+		99898C38285D442000BC601E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				99898C39285D442000BC601E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		99898C42285D442000BC601E /* CruzeiroTests */ = {
+			isa = PBXGroup;
+			children = (
+				99898C43285D442000BC601E /* CruzeiroTests.swift */,
+			);
+			path = CruzeiroTests;
+			sourceTree = "<group>";
+		};
+		99898C4C285D442000BC601E /* CruzeiroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99898C4D285D442000BC601E /* CruzeiroUITests.swift */,
+				99898C4F285D442000BC601E /* CruzeiroUITestsLaunchTests.swift */,
+			);
+			path = CruzeiroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99898C2E285D441F00BC601E /* Cruzeiro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99898C53285D442000BC601E /* Build configuration list for PBXNativeTarget "Cruzeiro" */;
+			buildPhases = (
+				99898C2B285D441F00BC601E /* Sources */,
+				99898C2C285D441F00BC601E /* Frameworks */,
+				99898C2D285D441F00BC601E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cruzeiro;
+			productName = Cruzeiro;
+			productReference = 99898C2F285D441F00BC601E /* Cruzeiro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99898C3E285D442000BC601E /* CruzeiroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99898C56285D442000BC601E /* Build configuration list for PBXNativeTarget "CruzeiroTests" */;
+			buildPhases = (
+				99898C3B285D442000BC601E /* Sources */,
+				99898C3C285D442000BC601E /* Frameworks */,
+				99898C3D285D442000BC601E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99898C41285D442000BC601E /* PBXTargetDependency */,
+			);
+			name = CruzeiroTests;
+			productName = CruzeiroTests;
+			productReference = 99898C3F285D442000BC601E /* CruzeiroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99898C48285D442000BC601E /* CruzeiroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99898C59285D442000BC601E /* Build configuration list for PBXNativeTarget "CruzeiroUITests" */;
+			buildPhases = (
+				99898C45285D442000BC601E /* Sources */,
+				99898C46285D442000BC601E /* Frameworks */,
+				99898C47285D442000BC601E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99898C4B285D442000BC601E /* PBXTargetDependency */,
+			);
+			name = CruzeiroUITests;
+			productName = CruzeiroUITests;
+			productReference = 99898C49285D442000BC601E /* CruzeiroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99898C27285D441F00BC601E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					99898C2E285D441F00BC601E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					99898C3E285D442000BC601E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 99898C2E285D441F00BC601E;
+					};
+					99898C48285D442000BC601E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 99898C2E285D441F00BC601E;
+					};
+				};
+			};
+			buildConfigurationList = 99898C2A285D441F00BC601E /* Build configuration list for PBXProject "Cruzeiro" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99898C26285D441F00BC601E;
+			productRefGroup = 99898C30285D441F00BC601E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99898C2E285D441F00BC601E /* Cruzeiro */,
+				99898C3E285D442000BC601E /* CruzeiroTests */,
+				99898C48285D442000BC601E /* CruzeiroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99898C2D285D441F00BC601E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99898C3A285D442000BC601E /* Preview Assets.xcassets in Resources */,
+				99898C37285D442000BC601E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99898C3D285D442000BC601E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99898C47285D442000BC601E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99898C2B285D441F00BC601E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99898C35285D441F00BC601E /* ContentView.swift in Sources */,
+				99898C33285D441F00BC601E /* CruzeiroApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99898C3B285D442000BC601E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99898C44285D442000BC601E /* CruzeiroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99898C45285D442000BC601E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99898C50285D442000BC601E /* CruzeiroUITestsLaunchTests.swift in Sources */,
+				99898C4E285D442000BC601E /* CruzeiroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99898C41285D442000BC601E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99898C2E285D441F00BC601E /* Cruzeiro */;
+			targetProxy = 99898C40285D442000BC601E /* PBXContainerItemProxy */;
+		};
+		99898C4B285D442000BC601E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99898C2E285D441F00BC601E /* Cruzeiro */;
+			targetProxy = 99898C4A285D442000BC601E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		99898C51285D442000BC601E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99898C52285D442000BC601E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99898C54285D442000BC601E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cruzeiro/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.Cruzeiro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99898C55285D442000BC601E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cruzeiro/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.Cruzeiro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		99898C57285D442000BC601E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.CruzeiroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cruzeiro.app/Cruzeiro";
+			};
+			name = Debug;
+		};
+		99898C58285D442000BC601E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.CruzeiroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cruzeiro.app/Cruzeiro";
+			};
+			name = Release;
+		};
+		99898C5A285D442000BC601E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.CruzeiroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cruzeiro;
+			};
+			name = Debug;
+		};
+		99898C5B285D442000BC601E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.CruzeiroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cruzeiro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99898C2A285D441F00BC601E /* Build configuration list for PBXProject "Cruzeiro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99898C51285D442000BC601E /* Debug */,
+				99898C52285D442000BC601E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99898C53285D442000BC601E /* Build configuration list for PBXNativeTarget "Cruzeiro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99898C54285D442000BC601E /* Debug */,
+				99898C55285D442000BC601E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99898C56285D442000BC601E /* Build configuration list for PBXNativeTarget "CruzeiroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99898C57285D442000BC601E /* Debug */,
+				99898C58285D442000BC601E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99898C59285D442000BC601E /* Build configuration list for PBXNativeTarget "CruzeiroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99898C5A285D442000BC601E /* Debug */,
+				99898C5B285D442000BC601E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99898C27285D441F00BC601E /* Project object */;
+}
